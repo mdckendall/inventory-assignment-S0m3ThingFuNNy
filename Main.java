@@ -20,7 +20,7 @@ class Main {
       if(number == 1){
         int size = 1;
         for (int i = 0; i < size; i++) {
-          System.out.println("Enter the Name:");
+          System.out.println("Enter the name:");
           String name = input.nextLine();
 
           System.out.println("Enter the serial number:");
@@ -47,7 +47,7 @@ class Main {
       }
 
       if(number == 3){
-        System.out.println("Enter the serial number of the item you want to update:");
+        System.out.println("Enter the serial number of the item you want to change:");
         String serialNumberToUpdate = input.nextLine();
 
         boolean found = false;
