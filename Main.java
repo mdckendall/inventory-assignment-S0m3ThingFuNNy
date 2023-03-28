@@ -55,7 +55,7 @@ for (int i = 0; i < inve.size(); i++) {
 String userInput3 = input.nextLine();
 int number3 = Integer.parseInt(userInput3);
 if(number3 == 3) {
-    System.out.println("Enter the serial number of the item you want to change:");
+    System.out.println("Enter the serial number of the item to change:");
     String serialNumber = input.nextLine();
 
     boolean found = false;
@@ -70,7 +70,6 @@ if(number3 == 3) {
             arr[0] = name;
             arr[2] = value;
             found = true;
-                  System.out.println("3 worked");
 
             break;
         }
