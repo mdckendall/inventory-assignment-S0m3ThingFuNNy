@@ -65,9 +65,6 @@ class Main {
             break;
           }
         }
-        if (!found) {
-          System.out.println("Item not found.");
-        }
       }
 
       if(number == 4){
